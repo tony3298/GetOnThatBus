@@ -14,6 +14,9 @@
 		47EF7E2F1B16497500146790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EF7E2E1B16497500146790 /* Images.xcassets */; };
 		47EF7E321B16497500146790 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47EF7E301B16497500146790 /* LaunchScreen.xib */; };
 		47EF7E3E1B16497500146790 /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7E3D1B16497500146790 /* GetOnThatBusTests.m */; };
+		47EF7E481B164E2500146790 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EF7E471B164E2500146790 /* MapKit.framework */; };
+		47EF7E4B1B1668C600146790 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7E4A1B1668C600146790 /* DetailViewController.m */; };
+		47EF7E4E1B166DA000146790 /* MyPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7E4D1B166DA000146790 /* MyPointAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		47EF7E371B16497500146790 /* GetOnThatBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnThatBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47EF7E3C1B16497500146790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47EF7E3D1B16497500146790 /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
+		47EF7E471B164E2500146790 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		47EF7E491B1668C600146790 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		47EF7E4A1B1668C600146790 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		47EF7E4C1B166DA000146790 /* MyPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointAnnotation.h; sourceTree = "<group>"; };
+		47EF7E4D1B166DA000146790 /* MyPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47EF7E481B164E2500146790 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		47EF7E151B16497500146790 = {
 			isa = PBXGroup;
 			children = (
+				47EF7E471B164E2500146790 /* MapKit.framework */,
 				47EF7E201B16497500146790 /* GetOnThatBus */,
 				47EF7E3A1B16497500146790 /* GetOnThatBusTests */,
 				47EF7E1F1B16497500146790 /* Products */,
@@ -83,6 +93,10 @@
 			children = (
 				47EF7E251B16497500146790 /* AppDelegate.h */,
 				47EF7E261B16497500146790 /* AppDelegate.m */,
+				47EF7E491B1668C600146790 /* DetailViewController.h */,
+				47EF7E4A1B1668C600146790 /* DetailViewController.m */,
+				47EF7E4C1B166DA000146790 /* MyPointAnnotation.h */,
+				47EF7E4D1B166DA000146790 /* MyPointAnnotation.m */,
 				47EF7E281B16497500146790 /* ViewController.h */,
 				47EF7E291B16497500146790 /* ViewController.m */,
 				47EF7E2B1B16497500146790 /* Main.storyboard */,
@@ -222,6 +236,8 @@
 				47EF7E2A1B16497500146790 /* ViewController.m in Sources */,
 				47EF7E271B16497500146790 /* AppDelegate.m in Sources */,
 				47EF7E241B16497500146790 /* main.m in Sources */,
+				47EF7E4E1B166DA000146790 /* MyPointAnnotation.m in Sources */,
+				47EF7E4B1B1668C600146790 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
